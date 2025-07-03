@@ -283,6 +283,9 @@
     (property "Datasheet" "~" (at 97.79 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C385130" (at 97.79 59.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "2" (uuid 170fff20-4ff1-4d90-892c-11eb49216ba5))
     (pin "1" (uuid 59cfb96e-f19b-4851-a8e0-fe9c16f14ec9))
     (instances
@@ -370,7 +373,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 97.79 73.66 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 79d60e98-892d-4970-8350-e2e96a06b13b)
     (property "Reference" "J2" (at 100.33 73.66 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -384,6 +387,9 @@
     (property "Datasheet" "~" (at 97.79 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "" (at 97.79 73.66 0)
+      (effects (font (size 1.27 1.27)))
+    )
     (pin "2" (uuid 4103ec2f-e089-4560-b145-fc64e896919f))
     (pin "1" (uuid 44a9e1e9-bb7c-4c24-869d-5c46ecac5504))
     (instances
@@ -396,7 +402,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 97.79 86.36 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8e20e446-4b58-4eb0-afc5-ef710f947a81)
     (property "Reference" "J3" (at 100.33 86.36 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -409,6 +415,9 @@
     )
     (property "Datasheet" "~" (at 97.79 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 97.79 86.36 0)
+      (effects (font (size 1.27 1.27)))
     )
     (pin "2" (uuid c1cf1a25-86a2-4a81-b88d-41cca3d2e3c5))
     (pin "1" (uuid e6aea39f-aa55-464e-9b8d-bd0f0032e341))
